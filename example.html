@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<script src="dynamic-image-generator.js"></script>
+	<link rel="stylesheet" type="text/css" href="dig-style.css">
+</head>
+<body>
+	<div id="foo"></div>
+
+	<img id="myImg1" class="oneImg">
+	<img id="myImg2" class="twoImg">
+	<img id="myImg3" class="threeImg">
+
+	<hr />
+
+	<img id="myImg31" class="threeImg">
+	<img id="myImg11" class="oneImg">
+	<img id="myImg21" class="twoImg">
+
+	<script type="text/javascript">
+		document.getElementById("myImg1").src = digGetAwesomeImage("Hello", 300, 300);
+		document.getElementById("myImg2").src = digGetAwesomeImage("My Text", 300, 300);
+		document.getElementById("myImg3").src = digGetAwesomeImage("My Digit", 300, 300);
+
+		document.getElementById("myImg11").src = digGetAwesomeImage("Foo !", 300, 300);
+		document.getElementById("myImg21").src = digGetAwesomeImage("M", 300, 300);
+		document.getElementById("myImg31").src = digGetAwesomeImage("00090", 300, 300);
+	</script>
+</body>
+</html>
+

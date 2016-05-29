@@ -1,0 +1,32 @@
+/* This is a stylesheet for few manupulation of the image.
+ *
+ * Written By : Sagiruddin Mondal
+ * Github Location : https://github.com/beingsagir/dynamic-image-generator
+ * Licence : ( MIT Licence ) https://github.com/beingsagir/dynamic-image-generator/blob/master/LICENSE
+ */
+
+
+.oneImg{
+    height:300px;
+    width:300px;
+    background-color: #fff ; 
+    background-repeat: no-repeat;
+}
+.twoImg{
+    height:300px;
+    width:300px;
+    background-color: #fff ; 
+    background-repeat: no-repeat;
+    -moz-border-radius: 10%;
+      -webkit-border-radius: 10%;
+      border-radius: 10%;
+}
+.threeImg{
+    height:300px;
+    width:300px;
+    background-color: #fff ; 
+    background-repeat: no-repeat;
+    -moz-border-radius: 50%;
+	  -webkit-border-radius: 50%;
+	  border-radius: 50%;
+}
